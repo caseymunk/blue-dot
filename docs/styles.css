@@ -9,7 +9,7 @@
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    background-image: url('images/background.png'); /* Update the path accordingly */
+    background-image: url('/docs/images/background.png'); /* Update the path accordingly */
 }
 
 .clickable-area {
