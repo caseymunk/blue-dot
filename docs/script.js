@@ -2,9 +2,9 @@
 
 // Define properties for each image with updated paths
 var imageProperties = {
-    'webpage/images/image1.png': { width: 1254, height: 706, left: 0, top: 0 },
-    'webpage/images/image2.png': { width: 1254, height: 706, left: 0, top: 0 },
-    'webpage/images/image3.png': { width: 1254, height: 706, left: 0, top: 0 }
+    'docs/images/image1.png': { width: 1254, height: 706, left: 0, top: 0 },
+    'docs/images/image2.png': { width: 1254, height: 706, left: 0, top: 0 },
+    'docs/images/image3.png': { width: 1254, height: 706, left: 0, top: 0 }
 };
 
 // Store references to image elements
@@ -15,7 +15,7 @@ document.addEventListener('keydown', function(event) {
 
     // Toggle visibility based on the pressed key (1, 2, 3)
     if (key === '1' || key === '2' || key === '3') {
-        var imagePath = 'webpage/images/image' + key + '.png';
+        var imagePath = 'docs/images/image' + key + '.png';
         toggleImageVisibility(imagePath);
     }
 });
